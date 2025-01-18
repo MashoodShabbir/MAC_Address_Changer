@@ -27,7 +27,7 @@ git clone https://github.com/MashoodShabbir/MAC_Address_Changer.git
 
 2. Navigate to the directory containing the script:
 ```bash
-cd <directory-name>
+cd MAC_Address_Changer
 ```
 Run the script with Python, providing the interface and new MAC address using the -i or --interface and -m or --mac flags:
 ```bash
