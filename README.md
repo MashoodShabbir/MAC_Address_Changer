@@ -1,8 +1,8 @@
-MAC Address Changer
+# MAC Address Changer
 
 This Python script allows users to change the MAC address of a specified network interface. It's a useful tool for network troubleshooting, privacy enhancement, or simulating different devices on a network.
 
-Features
+## Features
 
 Retrieve the current MAC address of a network interface.
 
@@ -12,13 +12,13 @@ Validate the format of the new MAC address before applying changes.
 
 Provide clear feedback on the success or failure of the operation.
 
-Requirements
+## Requirements
 
 To run this script, you need:
 
 Python 3.6+
 
-How to Use
+## How to Use
 
 1. Clone the repository or download the script:
 ```bash
@@ -38,13 +38,13 @@ Example:
 python mac_changer.py -i eth0 -m 00:11:22:33:44:55
 ```
 
-Arguments
+## Arguments
 
 -i, --interface: Specifies the network interface whose MAC address will be changed. Example: eth0, wlan0.
 
 -m, --mac: Specifies the new MAC address to assign. Must follow the format XX:XX:XX:XX:XX:XX.
 
-Example Output
+## Example Output
 ```bash
 [+] Current MAC = 00:11:22:33:44:55
 [+] Changing MAC address for eth0 to 66:77:88:99:AA:BB
@@ -57,7 +57,7 @@ If the MAC address does not change:
 [+] MAC Address was not changed. Please use a different MAC address.
 ```
 
-Important Notes
+## Important Notes
 
 Run as Administrator: This script requires administrative privileges to change the MAC address. Use sudo when running the script if needed.
 
